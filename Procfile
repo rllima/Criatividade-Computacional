@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run Tutorial.pyhoreku
+web: sh setup.sh && streamlit run app.py
