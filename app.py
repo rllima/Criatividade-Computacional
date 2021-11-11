@@ -5,39 +5,36 @@ import streamlit as st
 def main():
     st.set_page_config(page_title = "Criatividade Computacional", layout = "wide")
     st.header("Criatividade Computacional - Mini Projeto")
-    st.write("Lucas Florencio \n Matheus Hopper \n Rodrigo Lima")
+    st.write("Lucas Florêncio \n Matheus Hopper \n Rodrigo Lima")
 
     st.header("Galeria")
     intro = "Com o objetivo de produzir obras utilizando modelos gerativos \
              o grupo explorou aspectos da culturais Africanos para gerar imagens \
-             e videos atraves de duas abordagens:"
+             e vídeos através de duas abordagens:"
     st.subheader(intro)
-    st.write("- Geracao de imagens e videos explorando letras de musicas africanas ou com referencia a Africa")
-    st.write("- Geracao de videos atraves de musicas africanas")
-    st.subheader("Geracao de imagens e videos atraves de texto")
-    with st.expander("A experiencia do processo!"):
+    st.write("- Geração de imagens e videos explorando letras de músicas africanas ou com referência a Africa")
+    st.write("- Geração de videos através de músicas africanas")
+    st.subheader("Geração de imagens e videos através de texto")
+    with st.expander("A experiência do processo!"):
         st.write("""
-                O processo para geracao de um conteudo que possua caracteristicas
+                O processo para geração de um conteúdo que possua caracteristicas
                 culturais de uma sociedade exige habilidade e entendimento da mesma.
-                As tecnicas, cores e formas devem respeitar e remeter a emocao e identidade 
+                As técnicas, cores e formas devem respeitar e remeter a emoção e identidade 
                 da cultura escolhida. 
                 Um estudo supercial foi feito, afim de capturar os elementos, cores e sons
-                presentes de maneirar geral no continente Africano.
+                presentes de maneira geral no continente Africano.
 
                 https://www.todamateria.com.br/arte-africana/
                 https://www.infoescola.com/artes/arte-africana/
                 https://www.africancontemporary.com/paintings-pt.htm
 
                 Se para um humano gerar um artefato artistico com caracteriticas culturais
-                inerentes a um povo, ou pais e necessario um certo senso e conhecimento historico,
+                inerentes a um povo ou pais e necessario uma imersão na cultura que ele almeja representar,
                 poderia um processo de gerativo (ML,IA) gerar tais artefatos (imagens) atraves de textos e sons?
 
                 SIM! O processo consegue capturar aspectos presentes em outras obras, e o mais importante,
                 consegue muitas vezes causar aquela sensacao de "Uma imagem vale mais que mil palavras"
-                
-                
-                
-                
+                  
         """)
     st.write("As obras geradas aqui utilizam o notebook: https://colab.research.google.com/drive/1ZAus_gn2RhTZWzOWUpPERNC0Q8OhZRTZ#scrollTo=JX56bq4rEKIp")
     
@@ -94,6 +91,19 @@ def main():
     col3.write("model: vqgan_imagenet_f16_16384")
     col3.write("seed: 2")
     col3.write("seed: 450")
+
+    st.subheader("Geração de vídeos através de sons")
+    with st.expander("A experiência do processo!"):
+        st.write("""
+                Durante a pesquisa, tivemos uma sensação próxima do que imaginávamos como processo criativo
+                de um artista audiovisual. Lendo sobre a história da cultura musical Africana e, finalmente,
+                ouvindo os ritmos e sons mais populares, pudemos sentir essa carga cultural.
+
+                Fontes:
+                https://pt.wikipedia.org/wiki/M%C3%BAsica_da_%C3%81frica
+                https://viagemeturismo.abril.com.br/materias/15-musicas-africanas-para-embalar-uma-viagem-ao-continente/
+                """)
+    
 
     col1,col2 = st.columns(2)
     col1.video("media/VID_CAM_RichardBona_ManyakaBrazil.mp4")
