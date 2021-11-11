@@ -46,7 +46,7 @@ def main():
 
     col1,col2,col3 = st.columns(3)
     col1.image("media/t2.png")
-    col2.video("media/t3.mp4")
+    col2.video("media/t2.mp4")
     col3.write("Parametros")
     col3.write("texts: Mother Africa cradle of culture")
     col3.write("model: vqgan_imagenet_f16_16384")
