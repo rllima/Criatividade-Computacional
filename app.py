@@ -15,6 +15,30 @@ def main():
     st.write("- Geracao de imagens e videos explorando letras de musicas africanas ou com referencia a Africa")
     st.write("- Geracao de videos atraves de musicas africanas")
     st.subheader("Geracao de imagens e videos atraves de texto")
+    with st.expander("A experiencia do processo!"):
+        st.write("""
+                O processo para geracao de um conteudo que possua caracteristicas
+                culturais de uma sociedade exige habilidade e entendimento da mesma.
+                As tecnicas, cores e formas devem respeitar e remeter a emocao e identidade 
+                da cultura escolhida. 
+                Um estudo supercial foi feito, afim de capturar os elementos, cores e sons
+                presentes de maneirar geral no continente Africano.
+
+                https://www.todamateria.com.br/arte-africana/
+                https://www.infoescola.com/artes/arte-africana/
+                https://www.africancontemporary.com/paintings-pt.htm
+
+                Se para um humano gerar um artefato artistico com caracteriticas culturais
+                inerentes a um povo, ou pais e necessario um certo senso e conhecimento historico,
+                poderia um processo de gerativo (ML,IA) gerar tais artefatos (imagens) atraves de textos e sons?
+
+                SIM! O processo consegue capturar aspectos presentes em outras obras, e o mais importante,
+                consegue muitas vezes causar aquela sensacao de "Uma imagem vale mais que mil palavras"
+                
+                
+                
+                
+        """)
     st.write("As obras geradas aqui utilizam o notebook: https://colab.research.google.com/drive/1ZAus_gn2RhTZWzOWUpPERNC0Q8OhZRTZ#scrollTo=JX56bq4rEKIp")
     
     col1,col2,col3 = st.columns(3)
