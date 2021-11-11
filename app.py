@@ -96,7 +96,7 @@ def main():
     col3.write("seed: 450")
 
     col1,col2 = st.columns(2)
-    col1.image("media/VID_CAM_RichardBona_ManyakaBrazil.mp4")
+    col1.video("media/VID_CAM_RichardBona_ManyakaBrazil.mp4")
     col2.write("Parametros")
     col2.write("Audio: Richard Bona - Manyaka Brazil")
     col2.write("Origem: Camaroes")
