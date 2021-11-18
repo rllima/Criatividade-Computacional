@@ -4,7 +4,7 @@ import streamlit as st
 
 def main():
     st.set_page_config(page_title = "Criatividade Computacional", layout = "wide")
-    st.header("Criatividade Computacional - Mini Projeto - Grupo 10")
+    st.header("Criatividade Computacional - Mini Projeto - Grupo 09")
     st.write("Lucas Florêncio")
     st.write("Matheus Hopper")
     st.write("Rodrigo Lima")
